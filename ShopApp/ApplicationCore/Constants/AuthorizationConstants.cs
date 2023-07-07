@@ -11,4 +11,4 @@
         public const string JWT_SECRET_KEY = "SecretKeyOfDoomThatMustBeAMinimumNumberOfBytes";
     }
 }
-}
+
