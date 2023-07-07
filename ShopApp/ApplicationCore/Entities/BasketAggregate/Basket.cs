@@ -37,7 +37,7 @@ namespace ApplicationCore.Entities.BasketAggregate
 
         public void RemoveEmpetyItems()
         {
-            _item.RemoveAll(i => i.Quantity == 0);
+            _items.RemoveAll(i => i.Quantity == 0);
         }
 
         public void SetNewBuyerId(string buyerId)
